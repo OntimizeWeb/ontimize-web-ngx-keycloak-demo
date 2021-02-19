@@ -28,6 +28,11 @@ ontimize:
    security:
 #      mode: default
       mode: keycloak
+      keycloak:
+         auth-server-url: http://localhost:8888/auth
+         realm: implatform-demo
+         resource: implatform-demo-server
+         public-client: true
       ignorePaths: /app/**
       roleInformationService:
          roleRepository: UserRoleDao
@@ -78,11 +83,3 @@ spring:
    autoconfigure:
       exclude: |
          org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration, org.springframework.boot.actuate.autoconfigure.ManagementWebSecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.FallbackWebSecurityAutoConfiguration
-keycloak:
-   auth-server-url: http://localhost:8888/auth
-   realm: implatform-demo
-   resource: implatform-demo-server
-   public-client: true
-realm:
-   keycloak:
-      role: uma_authorization
