@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.imatia</groupId>
-        <artifactId>implatform-demo</artifactId>
+        <artifactId>keycloak-demo</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>implatform-demo-model</artifactId>
+    <artifactId>keycloak-demo-model</artifactId>
     <name>${project.artifactId}</name>
     <description>${project.artifactId}</description>
     <properties>
@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>com.imatia</groupId>
-            <artifactId>implatform-demo-api</artifactId>
+            <artifactId>keycloak-demo-api</artifactId>
         </dependency>
 
         <dependency>

@@ -9,7 +9,7 @@
 	</parent>
 
 	<groupId>com.imatia</groupId>
-	<artifactId>implatform-demo</artifactId>
+	<artifactId>keycloak-demo</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
@@ -34,31 +34,31 @@
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-api</artifactId>
+				<artifactId>keycloak-demo-api</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-boot</artifactId>
+				<artifactId>keycloak-demo-boot</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-frontend</artifactId>
+				<artifactId>keycloak-demo-frontend</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-model</artifactId>
+				<artifactId>keycloak-demo-model</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 			
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-ws</artifactId>
+				<artifactId>keycloak-demo-ws</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 

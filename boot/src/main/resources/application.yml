@@ -30,8 +30,8 @@ ontimize:
       mode: keycloak
       keycloak:
          auth-server-url: http://localhost:8888/auth
-         realm: implatform-demo
-         resource: implatform-demo-server
+         realm: keycloak-demo
+         resource: keycloak-demo-server
          public-client: true
       ignorePaths: /app/**
       roleInformationService:

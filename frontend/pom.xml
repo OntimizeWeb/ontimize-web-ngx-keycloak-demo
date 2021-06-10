@@ -4,13 +4,13 @@
 
     <parent>
         <groupId>com.imatia</groupId>
-        <artifactId>implatform-demo</artifactId>
+        <artifactId>keycloak-demo</artifactId>
         <version>1.0.0</version>
     </parent>
 
     <name>${project.artifactId}</name>
     <description>${project.artifactId} app.</description>
-    <artifactId>implatform-demo-frontend</artifactId>
+    <artifactId>keycloak-demo-frontend</artifactId>
     <packaging>jar</packaging>
 
     <build>

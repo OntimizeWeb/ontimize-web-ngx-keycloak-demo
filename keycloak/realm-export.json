@@ -1,6 +1,6 @@
 {
-  "id": "implatform-demo",
-  "realm": "implatform-demo",
+  "id": "keycloak-demo",
+  "realm": "keycloak-demo",
   "notBefore": 0,
   "revokeRefreshToken": false,
   "refreshTokenMaxReuse": 0,
@@ -101,7 +101,7 @@
       "clientId": "account",
       "name": "${client_account}",
       "rootUrl": "${authBaseUrl}",
-      "baseUrl": "/realms/implatform-demo/account/",
+      "baseUrl": "/realms/keycloak-demo/account/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
@@ -112,7 +112,7 @@
         "view-profile"
       ],
       "redirectUris": [
-        "/realms/implatform-demo/account/*"
+        "/realms/keycloak-demo/account/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -148,14 +148,14 @@
       "clientId": "account-console",
       "name": "${client_account-console}",
       "rootUrl": "${authBaseUrl}",
-      "baseUrl": "/realms/implatform-demo/account/",
+      "baseUrl": "/realms/keycloak-demo/account/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "**********",
       "redirectUris": [
-        "/realms/implatform-demo/account/*"
+        "/realms/keycloak-demo/account/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -278,7 +278,7 @@
     },
     {
       "id": "af3d1a53-eb56-447d-9270-3460f6030c70",
-      "clientId": "implatform-demo-server",
+      "clientId": "keycloak-demo-server",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
@@ -381,7 +381,7 @@
     },
     {
       "id": "fec2fdc0-feb9-4b84-adac-7adcd80ceac6",
-      "clientId": "implatform-demo-ui",
+      "clientId": "keycloak-demo-ui",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
@@ -479,14 +479,14 @@
       "clientId": "security-admin-console",
       "name": "${client_security-admin-console}",
       "rootUrl": "${authAdminUrl}",
-      "baseUrl": "/admin/implatform-demo/console/",
+      "baseUrl": "/admin/keycloak-demo/console/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "**********",
       "redirectUris": [
-        "/admin/implatform-demo/console/*"
+        "/admin/keycloak-demo/console/*"
       ],
       "webOrigins": [
         "+"

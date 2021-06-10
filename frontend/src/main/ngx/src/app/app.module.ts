@@ -11,8 +11,8 @@ import { CONFIG } from './app.config';
 const keycloakOptions: KeycloakOptions = {
   config: {
     url: 'http://localhost:8888/auth',
-    realm: 'implatform-demo',
-    clientId: 'implatform-demo-ui'
+    realm: 'keycloak-demo',
+    clientId: 'keycloak-demo-ui'
   },
   initOptions: {
     onLoad: 'login-required'
