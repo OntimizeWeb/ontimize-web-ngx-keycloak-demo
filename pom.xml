@@ -5,11 +5,11 @@
 	<parent>
 		<groupId>com.ontimize.boot</groupId>
 		<artifactId>ontimize-boot-parent</artifactId>
-		<version>1.1.1</version>
+		<version>1.1.4</version>
 	</parent>
 
 	<groupId>com.imatia</groupId>
-	<artifactId>implatform-demo</artifactId>
+	<artifactId>keycloak-demo</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
@@ -22,7 +22,6 @@
 		<hsqldb.version>2.3.4</hsqldb.version>
 		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 		<frontend-maven-plugin.version>1.10.0</frontend-maven-plugin.version>
-		<keycloak.version>9.0.3</keycloak.version>
 	</properties>
 
 	<dependencyManagement>
@@ -35,31 +34,31 @@
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-api</artifactId>
+				<artifactId>keycloak-demo-api</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-boot</artifactId>
+				<artifactId>keycloak-demo-boot</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-frontend</artifactId>
+				<artifactId>keycloak-demo-frontend</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-model</artifactId>
+				<artifactId>keycloak-demo-model</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 			
 			<dependency>
 				<groupId>com.imatia</groupId>
-				<artifactId>implatform-demo-ws</artifactId>
+				<artifactId>keycloak-demo-ws</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 

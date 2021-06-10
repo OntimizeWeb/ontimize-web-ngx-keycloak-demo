@@ -1,5 +1,5 @@
 {
-  "name": "implatform-demo",
+  "name": "keycloak-demo",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "production": "ng build --prod=true --baseHref=/implatform-demo/"
+    "production": "ng build --prod=true --baseHref=/keycloak-demo/"
   },
   "private": true,
   "engines": {
@@ -33,9 +33,9 @@
     "@angular/upgrade": "^8.2.14",
     "core-js": "^3.6.4",
     "ngx-material-timepicker": "5.4.3",
-    "ontimize-web-ngx": "file:C:/workspaces/ontimizeWeb/v8/ontimize-web-ngx/dist/ontimize-web-ngx-8.2.0-SNAPSHOT-0.tgz",
+    "ontimize-web-ngx": "file:C:/workspaces/ontimizeWeb/v8/ontimize-web-ngx/dist/ontimize-web-ngx-8.3.0.tgz",
     "ontimize-web-ngx-keycloak": "8.0.0-SNAPSHOT-0",
-    "ontimize-web-ngx-theming": "4.0.2",
+    "ontimize-web-ngx-theming": "8.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

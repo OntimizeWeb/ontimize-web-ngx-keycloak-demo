@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "implatform-demo": {
+    "keycloak-demo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/implatform-demo",
+            "outputPath": "dist/keycloak-demo",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -76,7 +76,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "implatform-demo:build",
+            "browserTarget": "keycloak-demo:build",
             "sourceMap": {
               "scripts": true,
               "styles": false,
@@ -85,14 +85,14 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "implatform-demo:build:production"
+              "browserTarget": "keycloak-demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "implatform-demo:build"
+            "browserTarget": "keycloak-demo:build"
           }
         },
         "test": {
@@ -130,16 +130,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "implatform-demo:serve"
+            "devServerTarget": "keycloak-demo:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "implatform-demo:serve:production"
+              "devServerTarget": "keycloak-demo:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "implatform-demo"
+  "defaultProject": "keycloak-demo"
 }
