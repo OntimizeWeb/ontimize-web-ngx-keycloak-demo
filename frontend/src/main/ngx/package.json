@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "production": "ng build --prod=true --baseHref=/keycloak-demo/"
+    "production": "ng build --prod=true --baseHref=/app/"
   },
   "private": true,
   "engines": {
@@ -34,7 +34,7 @@
     "core-js": "^3.6.4",
     "ngx-material-timepicker": "5.4.3",
     "ontimize-web-ngx": "8.10.0",
-    "ontimize-web-ngx-keycloak": "8.0.0",
+    "ontimize-web-ngx-keycloak": "file:../../../../../../ontimize-web-ngx-keycloak/dist/ontimize-web-ngx-keycloak-8.1.0-SNAPSHOT-0.tgz",
     "ontimize-web-ngx-theming": "8.4.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
