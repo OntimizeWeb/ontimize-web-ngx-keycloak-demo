@@ -4,7 +4,7 @@ package api.core.service;
 import java.util.List;
 import java.util.Map;
 
-import com.ontimize.db.EntityResult;
+import com.ontimize.jee.common.dto.EntityResult;
 
 
 public interface IUserService {
