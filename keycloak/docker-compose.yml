@@ -12,7 +12,8 @@ services:
       - postgres:/var/lib/postgresql/data
       - ./db:/docker-entrypoint-initdb.d
   keycloak:
-    image: jboss/keycloak:9.0.3
+#    image: jboss/keycloak:9.0.3
+    build: .
     container_name: keycloak
     ports:
       - 8888:8080
@@ -27,6 +28,7 @@ services:
       - KEYCLOAK_IMPORT=/tmp/realm-test.json
     volumes:
       - ./realm-export.json:/tmp/realm-test.json
+      - ./themes/demo:/opt/jboss/keycloak/themes/demo
     command: ["-Dkeycloak.profile.feature.upload_scripts=enabled"]
     depends_on:
       - postgres
