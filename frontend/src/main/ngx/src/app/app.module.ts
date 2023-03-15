@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { APP_CONFIG, O_AUTH_SERVICE, ONTIMIZE_MODULES, ONTIMIZE_PROVIDERS, OntimizeWebModule } from 'ontimize-web-ngx';
+import { APP_CONFIG, O_AUTH_SERVICE, ONTIMIZE_PROVIDERS, OntimizeWebModule, OntimizeWebTranslateModule, OPermissionsModule } from 'ontimize-web-ngx';
 import { KeycloakOptions, O_KEYCLOAK_OPTIONS, OKeycloakAuthService, OntimizeKeycloakModule } from 'ontimize-web-ngx-keycloak';
 
 import { environment } from '../environments/environment';
@@ -27,7 +29,10 @@ export const customProviders: any = [
 
 @NgModule({
   imports: [
-    ONTIMIZE_MODULES,
+    BrowserModule,
+    BrowserAnimationsModule,
+    OntimizeWebTranslateModule,
+    OPermissionsModule,
     OntimizeWebModule,
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
