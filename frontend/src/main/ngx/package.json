@@ -36,7 +36,7 @@
     "ontimize-web-ngx-keycloak": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-keycloak/dist/ontimize-web-ngx-keycloak-10.0.0.tgz",
     "ontimize-web-ngx-theming": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-theming/dist/ontimize-web-ngx-theming-10.0.0.tgz",
     "rxjs": "~6.6.7",
-    "tslib": "^1.10.0",
+    "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
