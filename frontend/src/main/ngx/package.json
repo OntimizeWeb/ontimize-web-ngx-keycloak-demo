@@ -12,7 +12,7 @@
   },
   "private": true,
   "engines": {
-    "node": "^12"
+    "node": "14.20.0"
   },
   "dependencies": {
     "@angular/animations": "~9.1.13",
@@ -32,9 +32,9 @@
     "@angular/upgrade": "^9.1.13",
     "core-js": "^3.6.4",
     "ngx-material-timepicker": "5.4.3",
-    "ontimize-web-ngx": "C:/Users/tomas.fuentes/repos/ontimize-web-ngx/dist/ontimize-web-ngx-9.0.0-rc.0.tgz",
-    "ontimize-web-ngx-keycloak": "C:/Users/tomas.fuentes/repos/ontimize-web-ngx-keycloak/dist/ontimize-web-ngx-keycloak-9.0.0.tgz",
-    "ontimize-web-ngx-theming": "8.5.0",
+    "ontimize-web-ngx": "C:/work/ontimize web/15.x.x/ontimize-web-ngx/dist/ontimize-web-ngx-10.0.0.tgz",
+    "ontimize-web-ngx-keycloak": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-keycloak/dist/ontimize-web-ngx-keycloak-10.0.0.tgz",
+    "ontimize-web-ngx-theming": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-theming/dist/ontimize-web-ngx-theming-10.0.0.tgz",
     "rxjs": "~6.6.7",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
