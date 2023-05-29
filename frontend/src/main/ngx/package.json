@@ -1,6 +1,6 @@
 {
   "name": "keycloak-demo",
-  "version": "0.0.1",
+  "version": "12.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4299",
@@ -32,9 +32,9 @@
     "@angular/upgrade": "^11.2.14",
     "core-js": "^3.6.4",
     "ngx-material-timepicker": "5.4.3",
-    "ontimize-web-ngx": "C:/work/ontimize web/15.x.x/ontimize-web-ngx/dist/ontimize-web-ngx-11.0.0.tgz",
-    "ontimize-web-ngx-keycloak": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-keycloak/dist/ontimize-web-ngx-keycloak-11.0.0.tgz",
-    "ontimize-web-ngx-theming": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-theming/dist/ontimize-web-ngx-theming-11.0.0.tgz",
+    "ontimize-web-ngx": "C:/work/ontimize web/15.x.x/ontimize-web-ngx/dist/ontimize-web-ngx-12.0.0.tgz",
+    "ontimize-web-ngx-keycloak": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-keycloak/dist/ontimize-web-ngx-keycloak-12.0.0.tgz",
+    "ontimize-web-ngx-theming": "C:/work/ontimize web/15.x.x/ontimize-web-ngx-theming/dist/ontimize-web-ngx-theming-12.0.0.tgz",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -63,8 +63,5 @@
     "ts-node": "~7.0.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.0"
-  },
-  "resolutions": {
-    "webpack": "^5.0.0"
   }
 }
