@@ -130,9 +130,21 @@
               "devServerTarget": "keycloak-demo:serve:production"
             }
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "keycloak-demo"
+  "defaultProject": "keycloak-demo",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
