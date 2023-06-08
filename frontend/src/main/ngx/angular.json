@@ -39,7 +39,12 @@
             "scripts": [
               "src/assets/js/domchange.js",
               "src/assets/js/keyboard.js"
-            ]
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "./node_modules"
+              ]
+            }
           },
           "configurations": {
             "production": {
