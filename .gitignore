@@ -18,7 +18,7 @@ bower_components/
 .idea/
 
 # misc
-*/**/.angular/cache/
+**/.angular/cache/
 .sass-cache/
 connect.lock/
 coverage/
@@ -100,6 +100,7 @@ Thumbs.db
 */src/generated
 /bin
 */bin
+node
 
 # IntelliJ specific files/directories #
 #######################################
