@@ -47,6 +47,10 @@
 			<groupId>com.ontimize.boot</groupId>
 			<artifactId>ontimize-boot-starter-rest</artifactId>
 		</dependency>
+      <dependency>
+          <groupId>org.keycloak</groupId>
+          <artifactId>keycloak-spring-boot-starter</artifactId>
+      </dependency>
 
 	</dependencies>
 
