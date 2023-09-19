@@ -33,7 +33,7 @@
     "@angular/upgrade": "^14.3.0",
     "core-js": "^3.6.4",
     "ngx-material-timepicker": "5.4.3",
-    "ontimize-web-ngx": "file:ontimize-web-ngx-15.0.0-SNAPSHOT.tgz",
+    "ontimize-web-ngx": "file:ontimize-web-ngx-15.0.0-SNAPSHOT-2.tgz",
     "ontimize-web-ngx-keycloak": "file:ontimize-web-ngx-keycloak-15.0.0.tgz",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
