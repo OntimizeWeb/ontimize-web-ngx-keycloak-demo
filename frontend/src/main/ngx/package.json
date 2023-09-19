@@ -13,7 +13,7 @@
   },
   "private": true,
   "engines": {
-    "node": "14.20.0"
+    "node": "18.10.0"
   },
   "dependencies": {
     "@angular/animations": "^15.2.9",
@@ -21,6 +21,7 @@
     "@angular/common": "^15.2.9",
     "@angular/compiler": "^15.2.9",
     "@angular/core": "^15.2.9",
+    "@angular/flex-layout": "^15.0.0-beta.42",
     "@angular/forms": "^15.2.9",
     "@angular/material": "^15.2.9",
     "@angular/material-moment-adapter": "^15.2.9",
@@ -34,9 +35,9 @@
     "ngx-material-timepicker": "5.4.3",
     "ontimize-web-ngx": "file:ontimize-web-ngx-15.0.0-SNAPSHOT-2.tgz",
     "ontimize-web-ngx-keycloak": "file:ontimize-web-ngx-keycloak-15.0.0.tgz",
-    "rxjs": "~6.6.7",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.4"
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.12.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.9",
@@ -59,9 +60,10 @@
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.4.2",
     "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~3.0.2",
+    "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
+    "karma-jasmine-html-reporter": "~1.5.0",
+    "karma-sonarqube-unit-reporter": "0.0.23",
     "kind-of": "6.0.3",
     "minimist": "1.2.5",
     "moment": "^2.22.2",
