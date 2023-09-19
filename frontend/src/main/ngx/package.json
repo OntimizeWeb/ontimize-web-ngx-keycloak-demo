@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "watch": "ng build --watch --configuration development",
-    "production": "ng build --baseHref=/app/"
+    "production": "ng build --base-href /app/"
   },
   "private": true,
   "engines": {
