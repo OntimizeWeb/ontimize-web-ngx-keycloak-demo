@@ -22,7 +22,7 @@
     <hsqldb.version>2.3.4</hsqldb.version>
     <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     <frontend-maven-plugin.version>1.10.0</frontend-maven-plugin.version>
-    <project.dependency.keycloak.version>18.0.1</project.dependency.keycloak.version>
+    <project.dependency.keycloak.version>21.1.2</project.dependency.keycloak.version>
   </properties>
 
   <dependencyManagement>
