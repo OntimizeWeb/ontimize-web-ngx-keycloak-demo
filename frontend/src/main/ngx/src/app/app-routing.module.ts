@@ -12,9 +12,7 @@ export const routes: Routes = [
 ];
 
 const opt: ExtraOptions = {
-  enableTracing: false // true if you want to print navigation routes
-  ,
-  relativeLinkResolution: 'legacy'
+    enableTracing: false // true if you want to print navigation routes
 };
 
 @NgModule({
