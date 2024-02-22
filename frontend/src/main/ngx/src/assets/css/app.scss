@@ -1,0 +1,8 @@
+// Include ontimize theme
+@use 'ontimize-web-ngx/theming/themes/ontimize.scss'as theme;
+
+// Include ontimize style
+@use 'ontimize-web-ngx/theming/ontimize-style.scss';
+
+@include ontimize-style.ontimize-theme-styles(theme.$theme);
+
