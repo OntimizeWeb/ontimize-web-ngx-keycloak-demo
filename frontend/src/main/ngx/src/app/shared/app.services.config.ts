@@ -1,4 +1,4 @@
-export const SERVICE_CONFIG: object = {
+export const SERVICE_CONFIG = {
   'users': {
     'path': '/users'
   }
